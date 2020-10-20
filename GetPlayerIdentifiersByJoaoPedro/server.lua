@@ -41,4 +41,4 @@ RegisterCommand("getid", function(source, args, rawCommand)
                         }                               
                         PerformHttpRequest('yourwebhookhere', function(err, text, headers) end, 'POST', json.encode({username = "🤵JoãoPedroSystem", content = "", embeds = connect}), { ['Content-Type'] = 'application/json' })
                            CancelEvent()
-                    end)
+                    end,true)
